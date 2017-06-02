@@ -610,7 +610,7 @@ typedef struct{
 	APG_STAT		sTotal; /**<  node stats for the total of all of the above nodes*/
 } APG_PARSER_STATS;
 
-// parser constructor/desctructor
+// parser constructor/destructor
 void*		vpParserCtor(void* vpParserInit, PFN_ALERT pfnAlertHandler);
 void		vParserDtor(void* vpCtx);
 
