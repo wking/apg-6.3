@@ -134,7 +134,7 @@ seriously impacts the parser's performance and forces the inclusion of the IO li
 When this macro is not defined, the tracing code is not compiled or included in the library, resulting in not
 only better preformance but a significanly smaller footprint.
 
-For simialar reasons, _APG_CFG_STATS must be defined to enable the collection of parsing statistics.
+For similar reasons, _APG_CFG_STATS must be defined to enable the collection of parsing statistics.
 Statistics collection can be vitally important when optimizing a parser, especially through the use of UDTs,
 but usually serves no purpose in a release or production version.
 */
